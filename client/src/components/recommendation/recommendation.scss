@@ -1,0 +1,23 @@
+.recommendation{
+    &__wrapper{
+        background-color: black;
+        justify-content: space-around;
+        height: 50rem;
+
+    }
+    &__arrow{
+        background-image: url(../../assets/reco-arrow.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        margin: auto;
+        border-radius: 5px;
+        height: 10rem;
+        width: 10rem;
+    }
+    &__info-container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
