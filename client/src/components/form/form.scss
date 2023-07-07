@@ -6,4 +6,30 @@
         width: 50rem;
         border-radius: 5px;
     }
+    &__title{
+        padding-left: 9rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    &__topics{
+        display: flex;
+        flex-direction: column;
+        height: 5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+
+    }
+    &__description{
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    &__button{
+        height: 5rem;
+        width: 40rem;
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
 }

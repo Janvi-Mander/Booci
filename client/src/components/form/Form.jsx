@@ -17,8 +17,9 @@ return(
             </div>
             <div className='form__description'>
                 <label className='form__subtitle'>Descibe What You Are Looking For In Your Book: </label>
-                <textarea name='description'></textarea>
+                <textarea name='description' rows="10"></textarea>
             </div>
+            <button className="form__button" type="submit">Get Your Recommended Books!</button>
         </form>
     </div>
 )
