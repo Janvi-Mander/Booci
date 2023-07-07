@@ -2,7 +2,36 @@
     &__wrapper{
         background-color: rgb(251, 230, 206);
         border-radius: 5px;
-        height: 30rem;
-        width: 50rem;
+        height: 35rem;
+        width: 70rem;
+        padding: 2rem;
+        margin-top: 2rem;
     }
+}
+.book{
+    &__wrapper{
+        margin: 2rem;
+        background-color: rgba(0, 0, 0, 0.708);
+        border-radius: 10px;
+        color: whitesmoke;
+    }
+    &__titles{
+        font-weight: 600;
+        font-size: 30px;
+        padding: 1rem;
+        padding-top: 1rem;
+    }
+    &__author{
+        font-size: 25px;
+        padding: 2rem;
+    }
+    &__description{
+        font-size: 20px;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+}
+
+.info{
+    display: block;
+    padding: 1rem;
 }
