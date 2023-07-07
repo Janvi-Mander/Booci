@@ -1,9 +1,12 @@
 import './bookTitles.scss'
 
-function BookTitles (){
+function BookTitles ({bookTitleList}){
     return(
         <div className='title__wrapper'>
-            book recos here
+            <p className='book__titles'>{bookTitleList.title}</p>
+            <p className='book__author'>{bookTitleList.author}</p>
+            <p className='book__description'>{bookTitleList.description}</p>
+
         </div>
     )
 }

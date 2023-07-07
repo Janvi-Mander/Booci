@@ -4,7 +4,8 @@ import Input from '../../components/input/Input'
 import Recommendation from '../../components/recommendation/Recommendation'
 import { useState, useEffect } from 'react'; 
 function HomePage() {
-  const [bookTitleList, setbookTtileList] = useState ({})
+  const [bookTitleList, setbookTitleList] = useState ({})
+
 
 // get book list data from API
 
@@ -16,8 +17,9 @@ function HomePage() {
     <>
       <PageHeader />
       <MainPageHero />
-      <Input />
-      <Recommendation />
+      <Input
+        setbookTitleList ={setbookTitleList} />
+      <Recommendation bookTitleList={bookTitleList}/>
     </>
   );
 }
